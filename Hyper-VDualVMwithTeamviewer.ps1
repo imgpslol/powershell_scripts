@@ -64,4 +64,4 @@ foreach ($VMName in $VMNames) {
     Install-Software -VMName $VMName
 }
 
-Write-Host "VM creation and software installation process is complete!"
+Write-Host "VM creation and software installation is now complete. Please verify!"
